@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    body{
+        background-color: #EEEEEE;
+    }
+}
+
+@layer components{
+    .heading{
+        @apply text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] uppercase font-bold text-gray-900 md:leading-[4rem] leading-[3rem] text-center
+    }
+}
+
+/* Input Form Date and Time Icon Will Be White */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+@layer components{
+    .heading-ui-one{
+        @apply text-white text-[25px] md:text-[45px] font-semibold w-[80%] mx-auto
+    }
+}
