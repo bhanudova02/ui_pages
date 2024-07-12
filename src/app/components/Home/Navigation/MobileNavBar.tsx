@@ -19,16 +19,16 @@ const MobileNavBar:any = ({closeNav,showNav}:Props) => {
               <Link href="/">Home</Link>
             </li>
             <li className='text-[35px] font-semibold text-white hover:text-red-400'>
-              <Link href="/">UI One</Link>
+              <Link href="/ui-one">UI One</Link>
             </li>
             <li className='text-[35px] font-semibold text-white hover:text-red-400'>
-              <Link href="/">UI Two</Link>
+              <Link href="/ui-two">UI Two</Link>
             </li>
             <li className='text-[35px] font-semibold text-white hover:text-red-400'>
-              <Link href="/">UI Three</Link>
+              <Link href="/ui-three">UI Three</Link>
             </li>
             <li className='text-[35px] font-semibold text-white hover:text-red-400'>
-              <Link href="/">UI Four</Link>
+              <Link href="/ui-four">UI Four</Link>
             </li>
         </ul>
       </div>
