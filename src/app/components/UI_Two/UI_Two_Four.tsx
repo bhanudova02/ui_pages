@@ -3,7 +3,7 @@ import React from 'react'
 const UI_Two_Four = () => {
     return (
         <div>
-            <div className="container py-6 mx-auto">
+            <div className="container py-6 mx-auto mb-16">
                 <div className="flex flex-wrap items-start gap-8 lg:gap-0">
                     <div className="lg:w-2/3 w-full h-[768px] pb-6 md:pb-0 overflow-y-scroll">
                         <div className="mx-auto bg-white shadow rounded w-full">

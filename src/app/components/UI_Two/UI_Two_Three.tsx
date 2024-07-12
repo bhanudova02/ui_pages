@@ -2,7 +2,7 @@ import React from 'react'
 
 const UI_Two_Three = () => {
   return (
-    <div>
+    <div className='bg-gray-50 pt-6'>
       <div className="container w-11/12 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 my-12 gap-8">
         <div className="bg-white shadow-md flex flex-col items-center p-8 rounded">
           <div className="h-24 w-24 p-2 bg-gray-100 rounded-full mb-1">
