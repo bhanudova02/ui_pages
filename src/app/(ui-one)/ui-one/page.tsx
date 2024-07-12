@@ -12,10 +12,10 @@ const page = () => {
     <div className='bg-[#000000a4]'>
         <Hero/>
         <TrendingNews/>
-        <LatestNews/>
-        <MatchHighlights/>
         <OurServices/>
+        <LatestNews/>
         <RightPlan/>
+        <MatchHighlights/>
         <UI_OneFooter/>
     </div>
   )
